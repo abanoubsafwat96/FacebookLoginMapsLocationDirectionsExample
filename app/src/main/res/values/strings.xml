@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginWithFacebook&amp;MapsExample</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="facebook_app_id">783338061790248</string>
+    <string name="fb_login_protocol_scheme">fb783338061790248</string>
+
+</resources>
