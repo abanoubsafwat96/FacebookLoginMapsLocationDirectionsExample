@@ -84,6 +84,14 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_LONG).show();
                     }
                 });
+
+        Button mapButton=findViewById(R.id.mapButton);
+        mapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,MapsActivity.class));
+            }
+        });
     }
 
     private void getUserInfo(JSONObject object) {

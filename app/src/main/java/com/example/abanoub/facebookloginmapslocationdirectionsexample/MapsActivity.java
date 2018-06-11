@@ -89,7 +89,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         longitude_ED = findViewById(R.id.lng);
         locate_Btn = findViewById(R.id.locate);
 
-        Toast.makeText(this, "Login with facebook Succeed", Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "Login with facebook Succeed", Toast.LENGTH_LONG).show();
         fullName_textView.setText(fullName);
         Glide.with(this)
                 .load("https://graph.facebook.com/" + userID+ "/picture?type=large")
